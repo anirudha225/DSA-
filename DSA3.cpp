@@ -14,7 +14,7 @@ int main(){
     if(a[mid-1] != a[mid] && a[mid] != a[mid+1]){
         break;
     } else
-          if((a.size()-1)%mid == 0){
+          if(mid%2 == 0){
 
             if(a[mid-1] == a[mid])
               end = mid - 1;
