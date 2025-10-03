@@ -6,7 +6,7 @@ int main(){
 
   vector <int> arr = {40,30,10,20};
   vector <int> ans;
-  int p1=0, p2, fans=INT_MAX;
+  int p1=0, p2, fans=INT_MAX;             // Given that there where 2 painters and 4 boards
   
   for(int i=0 ; i<arr.size()-1; i++){
 
