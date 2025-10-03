@@ -16,7 +16,7 @@ int main(){
 
   }
 
-  for(int i=0 ; i<ans.size()-1 ; i++){
+  for(int i=0 ; i<ans.size() ; i++){
     fans = min(fans,ans[i]);
   }
 
